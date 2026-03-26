@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Download My App</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.icon {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.downloadBtn {
+    background: #2a5298;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.downloadBtn:hover {
+    background: #1e3c72;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <img src="icon.png" class="icon" alt="App Icon">
+    <h1>My Converter App</h1>
+    <p>Fast HEIC → JPG Converter 🚀</p>
+    <a href="Heic2Png.zip" download>
+        <button class="downloadBtn">Download EXE</button>
+    </a>
+</div>
+
+</body>
+</html>
